@@ -1,5 +1,10 @@
+* {
+	background: rgb(194, 249, 245);
+}
+/*
 h1 {
-	color:green;
+	color: green;
+	text-align: center;
 }
 h2 {
 	color:red;
@@ -8,8 +13,30 @@ i {
 	color:orange;
 }
 table {
-	width: 200px;
-	height: 200px;
+	width: 400px;
+	height: 500px;
     color: red;	
 }
-p
+p {
+	text-align: justify;
+	width: 50%;
+}
+th {
+	text-align: ;
+} */
+h1 {
+	text-align: center;
+}
+h2 {
+	text-align: center;
+	width: 200px;
+}
+table {
+	width: 500px;
+}
+td {
+	text-align: center;
+}
+p {
+	text-align: justify;
+}
