@@ -1,6 +1,14 @@
 h1 {
+	color:green;
+}
+h2 {
 	color:red;
 }
-p {
-	color: red;
+i {
+	color:orange;
+}
+table {
+	width: 200px;
+	height: 200px;
+    color: red;	
 }
