@@ -1,14 +1,21 @@
 * {
-	background: rgb(194, 249, 245);
+	background: ;
 }
-/*
+
 h1 {
 	color: green;
 	text-align: center;
+	font-size: 50px;
 }
 h2 {
 	color:red;
+	font-size: 40px;
+	font-weight: normal;
 }
+p {
+	font-size: 30px;
+}
+/*
 i {
 	color:orange;
 }
@@ -23,20 +30,26 @@ p {
 }
 th {
 	text-align: ;
-} */
+} *
 h1 {
 	text-align: center;
 }
 h2 {
 	text-align: center;
 	width: 200px;
+	font-style: italic;
 }
 table {
 	width: 500px;
+	height: 300px;
 }
 td {
 	text-align: center;
+	font-weight: bold;
+}
+th {
+	font-weight: normal;
 }
 p {
 	text-align: justify;
-}
+}*/

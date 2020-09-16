@@ -5,12 +5,24 @@
 <title>Черновик</title>
 <link rel="stylesheet" href="myStyle.css">
 <link rel="shortcut icon" type="image/x-icon" href="js.ico">
+<script>
+let arr = ['пн', 'вт', 'ср', 'чт', 'пт', 'сб', 'вс'];
+let day = 2;
+for (let i = 0; i <= arr.length - 1; i++) {
+if(day == i) {
+document.write('<i>' + arr[i] + '</i>' + '<br>');
+} else { 
+document.write(arr[i] + '<br>');
+}
+}
+
+</script>
 </head>
 <body>
 <h1>Что нужно знать, чтобы делать сайты</h1>
 <ol>
-<li><b>HTML<b/></li>
-<li><i>CSS</i></li>
+<li>HTML</li>
+<li>CSS</li>
 <li>PHP</li>
 <li>SQL</li>
 <li>JavaScript</li>
@@ -18,7 +30,7 @@
 <li>SEO</li>
 </ol>
 <h2>PHP и JavaScript</h2>
-Языки программирования <b>PHP</b> и <b>JavaScript</b> позволяют сделать сайт динамичным, 
+Языки программирования PHP и JavaScript позволяют сделать сайт динамичным, 
 то есть реагирующим на действия пользователя. Например, можно сделать красивую выпадающую менюшку или слайдер.
 
 <h2>Виды скриптов</h2>
@@ -36,10 +48,10 @@
  <a href="https://github.com/">Ссылка</a>
  <br>
  <ul>
- <li><a href="pageOne.html" ><i>Страница(таблица)№1</i></a></li>
- <li><a href="pageTwo.html"><i>Страница(текст)№2</i></a></li>
- <li><a href="pageThree.html"><i>Страница№3</i></a></li>
- <li><a href="pageFour.html"><i>Страница№4<i/></a></li>
+ <li><a href="pageOne.html" >Страница(таблица)№1</a></li>
+ <li><a href="pageTwo.html">Страница(текст)№2</a></li>
+ <li><a href="pageThree.html">Страница№3</a></li>
+ <li><a href="pageFour.html">Страница(хаос)№4</a></li>
  </ul>
 <script src="myCod.js"></script>
 </body>
