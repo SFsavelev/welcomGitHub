@@ -1,8 +1,10 @@
-let arr = ["пн", "вт", "ср", "чт", "пт", "сб", "вс"];
+let sum = 1;
+for(let i = 0; i <= 100; i++){
+	sum += i;
+	if(sum >= 101){
+		console.log(i);
+	break;
+	}
+}
 
-for (let i = 0; i < arr.length; i++) {
-if(arr[i] == "сб" || arr[i] == "вс") {
-document.write('<b>' + arr[i] + '</b>' + '<br>')
-} else { document.write(arr[i] + '<br>')
-}
-}
+
