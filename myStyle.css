@@ -1,5 +1,5 @@
 * {
-	background: ;
+	background: #7FFFD4 ;
 }
 
 h1 {
@@ -9,48 +9,24 @@ h1 {
 }
 h2 {
 	color:red;
+	text-align: right;
 	font-size: 40px;
 	font-weight: normal;
 }
 p {
-	font-size: 30px;
+	font-size: 20px;
 	font-family: 'Courier New';
-}
-/*
-i {
-	color:orange;
-}
-table {
-	width: 400px;
-	height: 500px;
-    color: red;	
-}
-p {
+	line-height: 1.5;
 	text-align: justify;
-	width: 50%;
+	width: 600px;
+	color: Orchid;
 }
-th {
-	text-align: ;
-} *
-h1 {
-	text-align: center;
+a {
+	text-decoration: none;
 }
-h2 {
-	text-align: center;
-	width: 200px;
-	font-style: italic;
+
+table, th, td{
+	
+
 }
-table {
-	width: 500px;
-	height: 300px;
-}
-td {
-	text-align: center;
-	font-weight: bold;
-}
-th {
-	font-weight: normal;
-}
-p {
-	text-align: justify;
-}*/
+
