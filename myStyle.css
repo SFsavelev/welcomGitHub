@@ -1,32 +1,56 @@
 * {
-	background: #7FFFD4 ;
+	background; while;
 }
 
 h1 {
 	color: green;
 	text-align: center;
-	font-size: 50px;
+	style="font-size:10vw;"
 }
 h2 {
 	color:red;
-	text-align: right;
+	text-align: center;
 	font-size: 40px;
 	font-weight: normal;
+	font-style: italic;
 }
-p {
-	font-size: 20px;
-	font-family: 'Courier New';
-	line-height: 1.5;
-	text-align: justify;
-	width: 600px;
-	color: Orchid;
+
+ul i {
+	color: red;
 }
+
+p i {
+	color: green;
+}
+
+table {
+	width: 700px;
+} 
+
+th {
+text-align: left;
+font-weight: normal;
+border-color: green;
+} 
+
+td {
+text-align: center;
+font-weight: bold;
+border-color: red;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+ 
+li a {
+	display: block;
+} 
+
 a {
 	text-decoration: none;
 }
 
-table, th, td{
-	
-
-}
 
