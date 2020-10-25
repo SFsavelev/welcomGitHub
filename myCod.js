@@ -1,9 +1,12 @@
-let arr =
- [[1, 2, 3, [4, 5, [6, 7]]]
- , [8, [9, 10]]];
+const firstName = 'Sergey';
+const lastName = prompt('Введите фамилию: ' );
+alert(firstName + ' ' + lastName);
 
+/*Задача:Написанный код должен работать для любых строк 
+такого типа (то есть для строк, в которых слова разделены символов подчеркивания).
+Преобразуйте строку 'var_test_text' в 'VarTestText'.*/
 
-let sum = arr[0][0] + arr[0][1] + arr[0][2] + arr[0][3][0] + arr[0][3][1] + arr[0][3][2][0]
-+ arr[0][3][2][1] + arr[1][0] + arr[1][1][0] + arr[1][1][1];
+/*let str = 'var_test_text';
 
-console.log(sum);
+let result = str.split('_').reverse().join('')
+alert(result)*/
